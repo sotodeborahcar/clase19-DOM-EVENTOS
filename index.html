@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>EJERCICIOS-DOM-EVENTOS</title>
+  </head>
+  <body id="body">
+    <div class="boton">
+      <button class="ocultar" id="claro">
+        <img src="https://img.icons8.com/ios-filled/50/000000/moon-man.png" />
+      </button>
+    </div>
+    <div class="boton-modo">
+      <button id="oscuro">
+        <img src="https://img.icons8.com/doodle/48/000000/sun--v1.png" />
+      </button>
+    </div>
+    <!-- 💚 ejercicio playlist -->
+    <h2>Mis canciones favoritas 🎶</h2>
+    <ul>
+      <li id="uno"></li>
+      <li id="dos"></li>
+      <li id="tres"></li>
+      <li id="cuatro"></li>
+      <li id="cinco"></li>
+    </ul>
+    <!-- 💚 adivinanza: -->
+    <h2>Adivinanza ❓❓❓:</h2>
+    <p>De que color es el caballo blanco de San Martin?</p>
+    <button id="boton1">Blanco</button>
+    <button id="boton2">Gris</button>
+    <button id="boton3">Negro</button>
+
+    <p id="resultadoCorrecto"></p>
+
+    <!-- 💚 contador -->
+    <div class="marco-color" id="marco-color">
+      <div class="contador">
+        <h2>Contador:</h2>
+        <p id="numero">0</p>
+      </div>
+      <div class="botones">
+        <button class="menosUno">-1</button>
+        <button class="masUno">+1</button>
+        <button class="menosCinco">-5</button>
+        <button class="masCinco">+5</button>
+        <button class="menosDiez">-10</button>
+        <button class="masDiez">+10</button>
+      </div>
+    </div>
+
+    <!-- 💚 emails -->
+    <h1>Mis Emails</h1>
+    <h2>Bandeja de Entrada</h2>
+    <ul>
+      <li><a id="li1" class="negrita" href="#">Lorem ipsum dolor sit.</a></li>
+      <li>
+        <a id="li2" class="negrita" href="#">Perspiciatis eum porro sunt?</a>
+      </li>
+      <li>
+        <a id="li3" class="negrita" href="#"
+          >Repudiandae tempora cupiditate sit.</a
+        >
+      </li>
+      <li>
+        <a id="li4" class="negrita" href="#">Ad distinctio deserunt fuga!</a>
+      </li>
+      <li>
+        <a id="li5" class="negrita" href="#"
+          >Doloremque exercitationem nihil illo!
+        </a>
+      </li>
+      <li><a id="li6" class="negrita" href="#">Eum et ipsa nihil.</a></li>
+      <li>
+        <a id="li7" class="negrita" href="#"
+          >Sit accusantium quam assumenda.
+        </a>
+      </li>
+      <li>
+        <a id="li8" class="negrita" href="#">Magnam quam provident eveniet!</a>
+      </li>
+      <li>
+        <a id="li9" class="negrita" href="#">Sunt excepturi impedit nobis?</a>
+      </li>
+      <li>
+        <a id="li10" class="negrita" href="#">Ut asperiores aliquid neque.</a>
+      </li>
+    </ul>
+
+    <!-- 💚 ejercicio progreso -->
+
+    <div class="contenedor">
+      <button id="menos">-</button>
+
+      <div class="barra">
+        <div id="progreso" class="barrita"><p id="porcentaje">0</p></div>
+      </div>
+      <button id="mas">+</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
